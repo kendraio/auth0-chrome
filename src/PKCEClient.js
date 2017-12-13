@@ -3,7 +3,6 @@ import generateRandomChallengePair from './generateRandomChallengePair';
 import parse from 'url-parse';
 
 const qs = parse.qs;
-console.log(qs);
 /*
   Generic JavaScript PKCE Client, you can subclass this for React-Native,
   Cordova, Chrome, Some Other Environment which has its own handling for
